@@ -9,7 +9,7 @@ input.onGesture(Gesture.Shake, function () {
 let Steps = 0
 let Set = 0
 basic.forever(function () {
-    if (input.acceleration(Dimension.Strength) > 500) {
+    if (input.acceleration(Dimension.Strength) > 900) {
         Steps += 1
         basic.showNumber(Steps)
     }
